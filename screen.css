@@ -57,14 +57,6 @@ p {
   font-style: italic;
 }
 
-/* Akcentní podkres */
-mark {
-  background: linear-gradient(180deg, transparent 45%, rgba(217, 119, 6, 0.4) 100%);
-  padding: 0 0.15rem;
-  margin: 0 -0.15rem;
-  border-radius: 2px;
-}
-
 /* Seznamy a medové odrážky */
 
 li {
