@@ -1,26 +1,20 @@
 :root {
-  color-scheme: light;
-
-  /* Podklady a hranice */
   --bg: #FAF9F6;
   --border: #E7E5E4;
-
-  /* Typografie (APCA Lc 95+ / Lc 75+) */
-  --text: #1C1917;
-  --muted: #57534E;
-
-  /* Medovo-zlatý akcent */
   --honey: #D97706;
+  --muted: #57534E;
+  --text: #1C1917;
+  color-scheme: light;
 }
 
 body {
-  font-family: system-ui, -apple-system, sans-serif;
   background-color: var(--bg);
   color: var(--text);
-  max-width: 48rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
   margin: 0 auto;
-  padding: 2.5rem 1.25rem 4rem;
-  line-height: 1.65;
+  max-width: 48rem;
+  padding: 2rem 1rem;
 }
 
 header img {
@@ -33,20 +27,15 @@ header img {
 /* Typografie */
 h1 {
   font-size: 1.55rem;
-  letter-spacing: -0.02em;
   margin: 0 0 0.2rem;
 }
 
 h2 {
-  font-size: 1.2rem;
-  margin: 2rem 0 1rem;
-  padding-bottom: 0.35rem;
   border-bottom: 2px solid var(--border);
-}
-
-h1,
-h2 {
-  text-wrap: balance;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding-bottom: 0.35rem;
 }
 
 p {
@@ -57,8 +46,7 @@ p {
   font-style: italic;
 }
 
-/* Seznamy a medové odrážky */
-
+/* Seznamy a odrážky */
 li {
   margin-bottom: 0.65rem;
 }
@@ -70,11 +58,9 @@ li::marker {
 /* Odkazy */
 a {
   color: var(--text);
-  text-decoration: underline;
-  text-decoration-color: var(--honey);
-  text-decoration-thickness: 3px;
-  text-underline-offset: 4px;
   font-weight: bold;
+  text-decoration: underline 3px var(--honey);
+  text-underline-offset: 4px;
 }
 
 a:hover {
@@ -83,9 +69,9 @@ a:hover {
 
 /* Patička */
 footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.875rem;
   margin-top: 3.5rem;
   padding-top: 1.25rem;
-  border-top: 1px solid var(--border);
-  font-size: 0.875rem;
-  color: var(--muted);
 }
