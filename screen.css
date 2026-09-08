@@ -59,8 +59,9 @@ li::marker {
 a {
   color: var(--text);
   font-weight: bold;
-  text-decoration: underline 3px var(--honey);
-  text-underline-offset: 4px;
+  text-decoration: underline 2px var(--honey);
+  text-underline-offset: 2px;
+  text-underline-position: from-font;
 }
 
 a:hover {
