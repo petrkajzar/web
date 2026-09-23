@@ -51,6 +51,7 @@ header {
   padding: 0.35rem 0.85rem;
   border-radius: 999px;
   margin-bottom: 1.25rem;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -212,7 +213,6 @@ footer a:hover {
     border: 1px solid #999;
     color: #000;
     background: none;
-    text-transform: uppercase;
   }
 
   .tagline,
