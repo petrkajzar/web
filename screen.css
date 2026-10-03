@@ -154,6 +154,7 @@ main {
   margin-bottom: 0.45rem;
   line-height: 1.35;
   letter-spacing: -0.015em;
+  transition: color 0.2s ease;
 }
 
 .card:hover .card-title {
