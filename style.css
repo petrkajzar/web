@@ -14,8 +14,3 @@ ul {
 li+li {
   margin-top: 1.5rem;
 }
-
-img {
-  float: right;
-  margin-top: 1.34rem;
-}
